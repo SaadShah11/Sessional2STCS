@@ -4,4 +4,4 @@ Special Topics in CS sessional 2 part 3 source code.
 
 Step 1: Download or clone git repository.
 
-Step 2: Navigate into the folder and run "npm install" in terminal.
+Step 2: Navigate into the folders and run "npm install" in terminal.
