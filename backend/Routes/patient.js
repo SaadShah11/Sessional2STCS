@@ -6,11 +6,13 @@ const rootDir = require('../Util/path.js')
 const router = express.Router();
 
 router.get('/addMBR',(req, res, next) => {
-    //res.sendFile(path.join(rootDir, 'views', 'Add_Patient_MBR'))
+    //console.log(rootDir)
+    res.sendFile(path.join(rootDir,'Views', 'Add_Patient_MBR.html'))
 })
 
-router.post('./returnMedicalReport', (req, res, next) => {
+router.post('/returnMedicalReport', (req, res, next) => {
     console.log(req.body)
+    console.log('Moshi Moshi')
     res.redirect('/')
 })
 
